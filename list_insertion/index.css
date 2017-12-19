@@ -1,0 +1,43 @@
+.list-demo-container {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 500px;
+}
+
+.list-display-container {
+  margin-bottom: 20px;
+}
+
+.list-input-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+input {
+  padding: 20px;
+  font-size: 20px;
+}
+
+button {
+  padding: 20px;
+  font-size: 20px;
+  width: 100px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  font-size: 42px;
+  color: white;
+  background: black;
+  padding: 10px;
+}
+
+li:nth-child(3n) {
+  background: red;
+}
