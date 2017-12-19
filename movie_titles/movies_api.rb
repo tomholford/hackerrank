@@ -2,7 +2,7 @@ require 'json'
 
 module MoviesApi
   def get_movies_api_data(url, page = nil)
-    url = @url << "&page=#{page}" if page
+    url = url << "&page=#{page}" if page
     uri = URI(url)
     response = Net::HTTP.get(uri)
     JSON.parse(response)
