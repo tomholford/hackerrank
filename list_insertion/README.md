@@ -2,6 +2,10 @@
 
 Solution for a programming puzzle from hackerrank
 
+## Example
+
+https://codepen.io/anon/pen/ypeeLb
+
 ## Run Locally
 
 ```
